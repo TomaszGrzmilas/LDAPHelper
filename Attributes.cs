@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 
 namespace LDAPHelper
 {
@@ -108,7 +107,7 @@ namespace LDAPHelper
             ret.Add(UserPrincipalName);
 
             ret.Add(L);
-           
+
             ret.Add(MailNickname);
 
             ret.Add(Company);

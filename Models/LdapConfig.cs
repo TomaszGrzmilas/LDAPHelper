@@ -2,12 +2,12 @@
 {
     public class LdapConfig
     {
-        public string Path { get; private set; } 
+        public string Path { get; private set; }
         public string Url { get; private set; }
 
         public LdapConfig(string[] domainComponents)
         {
-            Path = @"LDAP://"; 
+            Path = @"LDAP://";
             foreach (var item in domainComponents)
             {
                 Path += $"DC={item},";

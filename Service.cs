@@ -1,11 +1,10 @@
 ﻿using LDAPHelper.Models;
-using System;
-using System.DirectoryServices;
 using System.Collections.Generic;
+using System.DirectoryServices;
 
 namespace LDAPHelper
 {
-    public class Service 
+    public class Service
     {
         private readonly LdapConfig Config;
         private readonly DirectoryEntry Entry;
