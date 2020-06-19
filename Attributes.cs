@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 
 namespace LDAPHelper
 {
@@ -106,11 +105,8 @@ namespace LDAPHelper
 
             ret.Add(Title);
             ret.Add(UserPrincipalName);
-
             ret.Add(L);
-           
             ret.Add(MailNickname);
-
             ret.Add(Company);
             ret.Add(PhysicalDeliveryOfficeName);
             ret.Add(StreetAddress);
@@ -118,27 +114,20 @@ namespace LDAPHelper
             ret.Add(Department);
             ret.Add(Mail);
             ret.Add(Manager);
-
             ret.Add(Mobile);
             ret.Add(DisplayName);
             ret.Add(Cn);
             ret.Add(C);
-
             ret.Add(MsExchUserCulture);
             ret.Add(HomeDirectory);
             ret.Add(Co);
-
             ret.Add(Name);
             ret.Add(MemberOf);
             ret.Add(SamAccountName);
-
             ret.Add(St);
-
             ret.Add(DistinguishedName);
-
             ret.Add(ADsPath);
             ret.Add(TelephoneNumber);
-
             ret.Add(WhenCreated);
 
             return ret;
