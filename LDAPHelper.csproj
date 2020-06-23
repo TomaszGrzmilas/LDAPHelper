@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Tomasz Grzmilas</Authors>
+    <Company>Tomasz GrzmilasTomasz Grzmilas</Company>
+    <Description>Wrapper liblary for LDAP querying</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/TomaszGrzmilas/LDAPHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TomaszGrzmilas/LDAPHelper</RepositoryUrl>
+    <PackageTags>LDAP Wrapper C# .NET Core</PackageTags>
+    <PackageReleaseNotes>This is the initial release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
