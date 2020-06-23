@@ -13,7 +13,7 @@ static void Main(string[] args)
     {
         foreach (var user in ldap.GetAllUsersProperies(new[] { Attributes.Name }))
         {
-                Console.WriteLine($"{ user.GetValueOrDefault(Attributes.Name).FirstOrDefault()}");
+            Console.WriteLine($"{ user.Values.FirstOrDefault().FirstOrDefault()}");
         }
     }
     Console.ReadLine();
