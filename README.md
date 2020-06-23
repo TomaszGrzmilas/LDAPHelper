@@ -2,6 +2,7 @@
 Wrapper liblary for LDAP querying
 
 #Usage
+```
 using LDAPHelper;
 
 static void Main(string[] args)
@@ -47,3 +48,4 @@ static void Main(string[] args)
     }
     Console.ReadLine();
 }
+```
