@@ -1,7 +1,10 @@
 # LDAPHelper
 Wrapper liblary for LDAP querying
 
-#Usage
+# Install
+Install-Package LDAPHelper -Version 1.0.0
+
+# Usage
 ```
 using LDAPHelper;
 
